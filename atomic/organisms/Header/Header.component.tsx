@@ -1,6 +1,8 @@
-import Nav from '../../molecules/Nav/Nav.component';
-import styles from './Header.module.scss';
 import Image from 'next/image';
+
+import Nav from '../../molecules/Nav/Nav.component';
+
+import styles from './Header.module.scss';
 
 const Header: React.FC = () => {
   return (

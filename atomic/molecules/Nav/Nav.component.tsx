@@ -1,4 +1,5 @@
 import NavItem from '../../atoms/NavItem/NavItem.component';
+
 import styles from './Nav.module.scss';
 
 const Nav: React.FC = () => {
