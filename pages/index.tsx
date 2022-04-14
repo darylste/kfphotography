@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 
 import NavItem from '../atomic/atoms/NavItem/NavItem.component';
 import Nav from '../atomic/molecules/Nav/Nav.component';
