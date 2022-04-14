@@ -1,11 +1,22 @@
+import Image from 'next/image';
+
+import Nav from '../../molecules/Nav/Nav.component';
+
 import styles from './Header.module.scss';
 
-interface IHeaderProps {
-  children?: React.ReactNode;
-}
-
-const Header: React.FC<IHeaderProps> = ({ children }) => {
-  return <header className={styles.header}>{children}</header>;
+const Header: React.FC = () => {
+  return (
+    <header className={styles.header}>
+      <Image
+        src='https://via.placeholder.com/150x60'
+        alt='logo'
+        width={150}
+        height={60}
+        priority
+      />
+      <Nav />
+    </header>
+  );
 };
 
 export default Header;
