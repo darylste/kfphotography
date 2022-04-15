@@ -1,0 +1,57 @@
+@import '../../../styles/variables.scss';
+
+.topsm{
+    padding-top: $spacing-sm;
+}
+.topmd{
+    padding-top: $spacing-md;
+}
+.toplg{
+    padding-top: $spacing-lg;
+}
+.topxl{
+    padding-top: $spacing-xl;
+}
+
+.rightsm{
+    padding-right: $spacing-sm;
+}
+.rightmd{
+    padding-right: $spacing-md;
+}
+.rightlg{
+    padding-right: $spacing-lg;
+}
+.rightxl{
+    padding-right: $spacing-xl;
+}
+
+.bottomsm{
+    padding-bottom: $spacing-sm;
+}
+.bottommd{
+    padding-bottom: $spacing-md;
+}
+.bottomlg{
+    padding-bottom: $spacing-lg;
+}
+.bottomxl{
+    padding-bottom: $spacing-xl;
+}
+
+.leftsm{
+    padding-left: $spacing-sm;
+}
+.leftmd{
+    padding-left: $spacing-md;
+}
+.leftlg{
+    padding-left: $spacing-lg;
+}
+.leftxl{
+    padding-left: $spacing-xl;
+}
+
+.inline {
+    display: inline;
+}
