@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import styles from './NavItem.module.scss';
 
 interface INavItemProps {
-  children?: React.ReactNode;
   isActive?: boolean;
 }
 
