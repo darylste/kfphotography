@@ -1,4 +1,5 @@
 import Button from '../../atoms/Button/Button.component';
+import Spacer from '../../atoms/Spacer/Spacer.component';
 import Typography from '../../atoms/Typography/Typography.component';
 
 import styles from './Hero.module.scss';
@@ -16,11 +17,11 @@ const Hero: React.FC = () => {
             Vel repellat laborum consequatur dicta tenetur. Nihil itaque dolore
             nisi beatae?
           </Typography>
-          <div className={styles.spacer}/>
+          <Spacer direction='bottom' size='md' />
           <Button href='#' varient='secondary'>
             LEARN MORE
           </Button>
-          <div className={styles.spacerLeft}/>
+          <Spacer direction='left' size='sm' inline />
           <Button href='#' varient='primary'>
             BOOK NOW
           </Button>
