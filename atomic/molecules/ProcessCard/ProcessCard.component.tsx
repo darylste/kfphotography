@@ -12,6 +12,7 @@ interface IProcessCard {
   imgHeight?: number;
   cardTitle: string;
   cardBody: string;
+  cardNumber: string;
 }
 
 const ProcessCard: React.FC<IProcessCard> = ({
@@ -20,6 +21,7 @@ const ProcessCard: React.FC<IProcessCard> = ({
   imgWidth = 75,
   cardTitle,
   cardBody,
+  cardNumber,
 }) => {
   return (
     <div className={styles.processCard}>
@@ -32,7 +34,7 @@ const ProcessCard: React.FC<IProcessCard> = ({
       </Spacer>
       <Divider direction='bottom' />
       <Spacer direction='top' size='xs' />
-      <p className={styles.stepNumber}>01</p>
+      <p className={styles.stepNumber}>{cardNumber}</p>
     </div>
   );
 };
