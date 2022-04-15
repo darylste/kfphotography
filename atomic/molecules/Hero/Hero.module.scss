@@ -6,12 +6,20 @@
 
 .grid {
     display: grid;
-    margin: 0 6rem;
+    padding: 0 6rem 12rem ;
     grid-template-columns: 40% 60%;
+    background-color: #efefef;
 }
 
 .text {
     margin-top: 10rem;
 
     grid-column: 2;
+}
+.spacer {
+    padding-bottom: 3rem;
+}
+
+.spacerLeft {display: inline;
+    padding-left: 2rem;
 }
