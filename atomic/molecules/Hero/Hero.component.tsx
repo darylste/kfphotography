@@ -1,3 +1,4 @@
+import Button from '../../atoms/Button/Button.component';
 import Typography from '../../atoms/Typography/Typography.component';
 
 import styles from './Hero.module.scss';
@@ -15,6 +16,14 @@ const Hero: React.FC = () => {
             Vel repellat laborum consequatur dicta tenetur. Nihil itaque dolore
             nisi beatae?
           </Typography>
+          <div className={styles.spacer}/>
+          <Button href='#' varient='secondary'>
+            LEARN MORE
+          </Button>
+          <div className={styles.spacerLeft}/>
+          <Button href='#' varient='primary'>
+            BOOK NOW
+          </Button>
         </div>
       </div>
     </div>
