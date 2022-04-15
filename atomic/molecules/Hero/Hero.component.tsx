@@ -1,3 +1,5 @@
+import Typography from '../../atoms/Typography/Typography.component';
+
 import styles from './Hero.module.scss';
 
 const Hero: React.FC = () => {
@@ -5,14 +7,14 @@ const Hero: React.FC = () => {
     <div className={styles.hero}>
       <div className={styles.grid}>
         <div className={styles.text}>
-          <span className={styles.heroTitle}>Capture Memories To</span>
-          <h1 className={styles.heroTitle}>Last a Lifetime</h1>
-          <p className={styles.heroText}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
-            officia aliquid recusandae excepturi suscipit laudantium eos
-            reiciendis. Quibusdam laudantium dolor non similique sit. Incidunt
-            repellat maiores voluptate corrupti laudantium eos.
-          </p>
+          <Typography varient='heroSpan'>Capture Memories To</Typography>
+          <Typography varient='heroTitle'>Last a Lifetime</Typography>
+          <Typography varient='heroText'>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ipsa
+            tenetur iure? Accusamus porro dignissimos, sit id voluptas minima.
+            Vel repellat laborum consequatur dicta tenetur. Nihil itaque dolore
+            nisi beatae?
+          </Typography>
         </div>
       </div>
     </div>
