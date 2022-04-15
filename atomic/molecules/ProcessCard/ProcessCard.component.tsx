@@ -1,4 +1,3 @@
-import { SP } from 'next/dist/shared/lib/utils';
 import Image from 'next/image';
 
 import Divider from '../../atoms/Divider/Divider.component';
@@ -25,7 +24,7 @@ const ProcessCard: React.FC<IProcessCard> = ({
   return (
     <div className={styles.processCard}>
       <Spacer direction='vertical' size='md'>
-        <Image src={imgSrc} width={imgWidth} height={imgHeight}/>
+        <Image src={imgSrc} width={imgWidth} height={imgHeight} />
         <Spacer direction='vertical' size='sm'>
           <Typography varient='bannerTitle'>{cardTitle}</Typography>
         </Spacer>
