@@ -1,0 +1,18 @@
+@import '../../../styles/variables.scss';
+
+.divider {
+    width: 100%;
+
+    &-top {
+        border-top: 2px solid $color-off-white;
+    }
+    &-right {
+        border-right: 2px solid $color-off-white;
+    }
+    &-bottom{
+        border-bottom: 2px solid $color-off-white;
+    }
+    &-left{
+        border-left: 2px solid $color-off-white;
+    }
+}

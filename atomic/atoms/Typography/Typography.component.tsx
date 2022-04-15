@@ -1,7 +1,7 @@
 import styles from './Typography.module.scss';
 
 interface ITypographyProps {
-  varient: 'heroSpan' | 'heroTitle' | 'heroText';
+  varient: 'heroSpan' | 'heroTitle' | 'heroText' | 'bannerTitle' | 'body';
 }
 
 const Typography: React.FC<ITypographyProps> = ({ children, varient }) => {
@@ -12,6 +12,10 @@ const Typography: React.FC<ITypographyProps> = ({ children, varient }) => {
       return <h1 className={styles.heroTitle}>{children}</h1>;
     case 'heroText':
       return <p className={styles.heroText}>{children}</p>;
+    case 'bannerTitle':
+      return <h3 className={styles.bannerTitle}>{children}</h3>;
+    case 'body':
+      return <p className={styles.body}>{children}</p>;
   }
   return null;
 };

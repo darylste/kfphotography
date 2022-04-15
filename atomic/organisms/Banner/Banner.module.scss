@@ -1,0 +1,12 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 0 6rem 12rem;
+}
+
+.one,
+.two,
+.three {
+    width: 100%;
+}
