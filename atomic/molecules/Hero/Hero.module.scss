@@ -1,3 +1,5 @@
+@import '../../../styles/variables.scss';
+
 .hero {
     position: relative;
     width: 100vw;
@@ -6,20 +8,20 @@
 
 .grid {
     display: grid;
-    padding: 0 6rem 12rem ;
+    padding: 0 $spacing-md $spacing-xl ;
     grid-template-columns: 40% 60%;
-    background-color: #efefef;
+    background-color: $color-off-white;
 }
 
 .text {
-    margin-top: 10rem;
+    margin-top: $spacing-lg;
 
     grid-column: 2;
 }
 .spacer {
-    padding-bottom: 3rem;
+    padding-bottom: $spacing-md;
 }
 
 .spacerLeft {display: inline;
-    padding-left: 2rem;
+    padding-left: $spacing-sm;
 }
