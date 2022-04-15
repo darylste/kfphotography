@@ -11,7 +11,7 @@ interface ISpacingProps {
     | 'vertical'
     | 'horizontal'
     | 'all';
-  size: 'sm' | 'md' | 'lg' | 'xl';
+  size: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
   inline?: boolean;
 }
 
@@ -19,15 +19,17 @@ const Spacer: React.FC<ISpacingProps> = ({
   direction = 'all',
   size = 'md',
   inline = false,
+  children,
 }) => {
   return (
-
     <div
       className={classNames(
         styles[`${direction}${size}`],
         inline && styles.inline,
       )}
-    />
+    >
+      {children}
+    </div>
   );
 };
 

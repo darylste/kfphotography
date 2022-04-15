@@ -1,5 +1,8 @@
 @import '../../../styles/variables.scss';
 
+.topxs{
+    padding-top: $spacing-xs;
+}
 .topsm{
     padding-top: $spacing-sm;
 }
@@ -13,6 +16,9 @@
     padding-top: $spacing-xl;
 }
 
+.rightxs{
+    padding-right: $spacing-xs;
+}
 .rightsm{
     padding-right: $spacing-sm;
 }
@@ -26,6 +32,9 @@
     padding-right: $spacing-xl;
 }
 
+.bottomxs{
+    padding-bottom: $spacing-xs;
+}
 .bottomsm{
     padding-bottom: $spacing-sm;
 }
@@ -39,6 +48,9 @@
     padding-bottom: $spacing-xl;
 }
 
+.leftxs{
+    padding-left: $spacing-xs;
+}
 .leftsm{
     padding-left: $spacing-sm;
 }
@@ -50,6 +62,55 @@
 }
 .leftxl{
     padding-left: $spacing-xl;
+}
+
+.verticalxs{
+    padding-top: $spacing-xs;
+    padding-bottom: $spacing-xs;
+
+}
+.verticalsm{
+    padding-top: $spacing-sm;
+    padding-bottom: $spacing-sm;
+
+}
+.verticalmd{
+    padding-top: $spacing-md;
+    padding-bottom: $spacing-md;
+
+}
+.verticallg{
+    padding-top: $spacing-lg;
+    padding-bottom: $spacing-lg;
+
+}
+.verticalxl{
+    padding-top: $spacing-xl;
+    padding-bottom: $spacing-xl;
+}
+
+
+.horizontalxs{
+    padding-left: $spacing-xs;
+    padding-right: $spacing-xs;
+}
+.horizontalsm{
+    padding-left: $spacing-sm;
+    padding-right: $spacing-sm;
+}
+.horizontalmd{
+    padding-left: $spacing-md;
+    padding-right: $spacing-md;
+
+}
+.horizontallg{
+    padding-left: $spacing-lg;
+    padding-right: $spacing-lg;
+
+}
+.horizontalxl{
+    padding-left: $spacing-xl;
+    padding-right: $spacing-xl;
 }
 
 .inline {

@@ -2,7 +2,7 @@
   "extends": ["tslint:latest", "tslint-react", "tslint-react-a11y"],
   "rules": {
     "react-a11y-required": true,
-    "react-a11y-accessible-headings": true,
+    "react-a11y-accessible-headings": false,
     "react-a11y-anchors": false,
     "no-implicit-dependencies": false,
     "jsx-wrap-multiline": false,
