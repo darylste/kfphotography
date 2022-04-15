@@ -1,11 +1,24 @@
-$font-body: 'Lora', serif;
-$font-heading: 'Source Sans Pro', sans-serif;
-$font-subheading: 'Fira Sans', sans-serif;
+$font-primary: 'Lora', serif;
+$font-secondary: 'Source Sans Pro', sans-serif;
+$font-tertiary: 'Fira Sans', sans-serif;
 
 $color-black-dark: #2D2D2D;
 $color-grey-dark: #3E3E3E;
 $color-grey: #626262;
 $color-grey-light: #969696;
+$color-off-white: #efefef;
+$color-white:  #FFF;
 
 $font-size-default: 62.5%;
+$font-size-xl: 8.8rem;
+$font-size-lg:4.8rem;
+$font-size-md: 1.8rem;
 $font-size-body: 1.4rem;
+
+$font-weight-semibold: 600;
+$font-weight-extralight: 200;
+
+$spacing-xl: 12rem;
+$spacing-lg:10rem;
+$spacing-md: 6rem;
+$spacing-sm: 2rem;

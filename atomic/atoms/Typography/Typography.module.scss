@@ -1,22 +1,24 @@
+@import '../../../styles/variables.scss';
+
 .heroTitle,
 .heroSpan {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: $font-secondary;
 }
 
 .heroSpan {
-    font-size: 5rem;
-    font-weight: 200;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-extralight;
 }
 
 .heroTitle {
-    margin-bottom: 2rem;
+    margin-bottom: $spacing-sm;
 
-    font-size: 8.8rem;
-    color: #3e3e3e;
+    font-size: $font-size-xl;
+    color: $color-grey-dark;
 }
 
 .heroText {
-    font-size: 1.4rem;
-    color: #626262;
+    font-size: $font-size-md;
+    color: $color-grey;
     line-height: 30px;
 }
