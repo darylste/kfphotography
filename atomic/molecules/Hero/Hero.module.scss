@@ -1,23 +1,19 @@
 @import '../../../styles/variables.scss';
 
 .hero {
-    position: relative;
-    width: 100vw;
+  position: relative;
+  width: 100vw;
 }
 
 .grid {
-    display: grid;
-    padding: 0 $spacing-md $spacing-xl ;
-    grid-template-columns: 40% 60%;
-    background-color: $color-off-white;
+  display: grid;
+  padding: 0 $spacing-md $spacing-xl;
+  grid-template-columns: 40% 60%;
+  background-color: $color-off-white;
 }
 
 .text {
-    margin-top: $spacing-lg;
+  margin-top: $spacing-lg;
 
-    grid-column: 2;
-}
-
-.spacerLeft {display: inline;
-    padding-left: $spacing-sm;
+  grid-column: 2;
 }

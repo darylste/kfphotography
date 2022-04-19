@@ -2,42 +2,53 @@
 
 .heroTitle,
 .heroSpan {
-    font-family: $font-secondary;
+  font-family: $font-secondary;
 }
 
 .heroSpan {
-    font-size: $font-size-xl;
-    font-weight: $font-weight-extralight;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-extralight;
 }
 
 .heroTitle {
-    margin-bottom: $spacing-sm;
+  margin-bottom: $spacing-sm;
 
-    font-size: $font-size-xxl;
-    color: $color-grey-dark;
+  font-size: $font-size-xxl;
+  color: $color-grey-dark;
 }
 
 .heroText {
-    font-size: $font-size-md;
-    color: $color-grey;
-    line-height: 30px;
+  font-size: $font-size-md;
+  color: $color-grey;
+  line-height: 30px;
 }
 
 .bannerTitle {
-    font-family: $font-tertiary;
-    font-size: 2rem;
-    font-weight: 400;
-    color: #383838;
-
+  font-family: $font-tertiary;
+  font-size: 2rem;
+  font-weight: 400;
+  color: $color-black;
 }
 
 .body {
-    font-size: $font-size-sm;
-    color: $color-grey;
-    line-height: 30px;
+  font-size: $font-size-sm;
+  color: $color-grey;
+  line-height: 30px;
 }
 
 .sectionTitle {
-    font-family: $font-tertiary;
-    font-size: $font-size-lg;
+  font-family: $font-tertiary;
+  font-size: $font-size-lg;
+}
+
+.footerTitle {
+  color: $color-white;
+  font-family: $font-tertiary;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-footTitle;
+}
+
+.footerText {
+  font-size: $font-size-sm;
+  color: $color-grey-light;
 }

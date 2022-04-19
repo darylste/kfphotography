@@ -25,15 +25,15 @@ const ProcessCard: React.FC<IProcessCard> = ({
 }) => {
   return (
     <div className={styles.processCard}>
-      <Spacer direction='vertical' size='md'>
+      <Spacer top='md' bottom='md'>
         <Image src={imgSrc} width={imgWidth} height={imgHeight} />
-        <Spacer direction='vertical' size='sm'>
+        <Spacer top='sm' bottom='sm'>
           <Typography varient='bannerTitle'>{cardTitle}</Typography>
         </Spacer>
         <Typography varient='body'>{cardBody}</Typography>
       </Spacer>
       <Divider direction='bottom' />
-      <Spacer direction='top' size='xs' />
+      <Spacer top='xs' />
       <p className={styles.stepNumber}>{cardNumber}</p>
     </div>
   );

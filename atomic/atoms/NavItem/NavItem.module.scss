@@ -1,33 +1,35 @@
+@import '../../../styles/variables.scss';
+
 .navItem {
-    list-style: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    color: #969696;
-    cursor: pointer;
+  list-style: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: $color-grey-light;
+  cursor: pointer;
 
-    &:not(:last-of-type) {
-        margin-right: 5rem;
-    }
+  &:not(:last-of-type) {
+    margin-right: 5rem;
+  }
 
-    &:hover {
-        color: #333;
-    }
+  &:hover {
+    color: $color-black;
+  }
 }
 
 .active {
-    color: #333;
-    position: relative;
+  color: $color-black;
+  position: relative;
 
-    &::after {
-        content: '';
-        width: 75%;
-        height: 1.5px;
-        background-color: #333;
-        position: absolute;
-        bottom: -10px;
-        left: 50%;
-        transform: translate(-50%);
-    }
+  &::after {
+    content: '';
+    width: 75%;
+    height: 1.5px;
+    background-color: $color-black;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+  }
 }
