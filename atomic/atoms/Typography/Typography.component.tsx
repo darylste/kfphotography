@@ -1,15 +1,16 @@
 import styles from './Typography.module.scss';
 
+type Varient =
+  | 'heroSpan'
+  | 'heroTitle'
+  | 'heroText'
+  | 'bannerTitle'
+  | 'body'
+  | 'sectionTitle'
+  | 'footerTitle'
+  | 'footerText';
 interface ITypographyProps {
-  varient:
-    | 'heroSpan'
-    | 'heroTitle'
-    | 'heroText'
-    | 'bannerTitle'
-    | 'body'
-    | 'sectionTitle'
-    | 'footerTitle'
-    | 'footerText';
+  varient: Varient;
 }
 
 const Typography: React.FC<ITypographyProps> = ({ children, varient }) => {
