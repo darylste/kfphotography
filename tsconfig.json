@@ -17,6 +17,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "atomic/molecules/Gallery/Gallery.component.jsx"],
   "exclude": ["node_modules"]
 }

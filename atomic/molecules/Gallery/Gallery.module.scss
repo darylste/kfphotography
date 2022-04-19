@@ -1,0 +1,43 @@
+@import '../../../styles/variables.scss';
+
+.filter {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  &Item {
+    font-size: $font-size-sm;
+    color: $color-grey-light;
+    cursor: pointer;
+    transition: all 0.25s;
+    position: relative;
+
+    &:not(:last-of-type) {
+      margin-right: $spacing-md;
+
+      &:after {
+        position: absolute;
+        content: '/';
+        right: -30px;
+      }
+    }
+
+    &:hover {
+      color: $color-grey;
+
+      &::after {
+        color: $color-grey-light;
+      }
+    }
+  }
+}
+
+.active {
+  color: $color-grey;
+}
+
+.image {
+  width: 100%;
+  display: block;
+  padding: 7.5px;
+}

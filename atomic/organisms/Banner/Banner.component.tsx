@@ -12,6 +12,7 @@ const Banner: React.FC = () => {
             cardTitle='Get in Touch'
             cardBody='Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat
             a ante venenatis dapibus posuere velit aliquet.'
+            cardNumber={'01'}
           />
         </div>
         <div className={styles.two}>
@@ -20,6 +21,7 @@ const Banner: React.FC = () => {
             cardTitle='Stress Free Day'
             cardBody='Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat
             a ante venenatis dapibus posuere velit aliquet.'
+            cardNumber={'02'}
           />
         </div>
         <div className={styles.three}>
@@ -28,6 +30,7 @@ const Banner: React.FC = () => {
             cardTitle='Have memories for life'
             cardBody='Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat
             a ante venenatis dapibus posuere velit aliquet.'
+            cardNumber={'02'}
           />
         </div>
       </div>
