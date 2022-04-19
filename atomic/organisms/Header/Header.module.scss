@@ -1,5 +1,7 @@
+@import '../../../styles/variables.scss';
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 6rem;
+    padding: $spacing-sm $spacing-md;
   }
