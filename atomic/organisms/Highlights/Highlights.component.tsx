@@ -1,9 +1,9 @@
-import styles from './Highlights.module.scss';
-
-import Typography from '../../atoms/Typography/Typography.component';
-import Spacer from '../../atoms/Spacer/Spacer.component';
 import Flex from '../../atoms/Flex/Flex.component';
+import Spacer from '../../atoms/Spacer/Spacer.component';
+import Typography from '../../atoms/Typography/Typography.component';
 import Gallery from '../../molecules/Gallery/Gallery.component';
+
+import styles from './Highlights.module.scss';
 
 const Highlights: React.FC = () => {
   return (
