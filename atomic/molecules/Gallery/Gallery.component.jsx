@@ -17,7 +17,7 @@ const Gallery = () => {
 
   return (
     <div>
-      <Spacer direction='bottom' size='md' />
+      <Spacer bottom='md' />
       <ul className={styles.filter}>
         <li className={classNames(styles.filterItem, styles.active)}>All</li>
         <li className={styles.filterItem}>Newborn</li>
@@ -25,7 +25,7 @@ const Gallery = () => {
         <li className={styles.filterItem}>Cake Smash</li>
         <li className={styles.filterItem}>Events</li>
       </ul>
-      <Spacer direction='top' size='sm'>
+      <Spacer top='sm'>
         <ResponsiveMasonry>
           <Masonry>
             {images.map((src, i) => (

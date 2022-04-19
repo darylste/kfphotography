@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import Logo from '../../atoms/Logo/Logo.component';
 import Nav from '../../molecules/Nav/Nav.component';
 
 import styles from './Header.module.scss';
@@ -7,13 +8,7 @@ import styles from './Header.module.scss';
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
-      <Image
-        src='https://via.placeholder.com/150x60'
-        alt='logo'
-        width={150}
-        height={60}
-        priority
-      />
+      <Logo />
       <Nav />
     </header>
   );

@@ -7,7 +7,9 @@ interface ITypographyProps {
     | 'heroText'
     | 'bannerTitle'
     | 'body'
-    | 'sectionTitle';
+    | 'sectionTitle'
+    | 'footerTitle'
+    | 'footerText';
 }
 
 const Typography: React.FC<ITypographyProps> = ({ children, varient }) => {
@@ -24,6 +26,10 @@ const Typography: React.FC<ITypographyProps> = ({ children, varient }) => {
       return <p className={styles.body}>{children}</p>;
     case 'sectionTitle':
       return <h2 className={styles.sectionTitle}>{children}</h2>;
+    case 'footerTitle':
+      return <h4 className={styles.footerTitle}>{children}</h4>;
+    case 'footerText':
+      return <p className={styles.footerText}>{children}</p>;
   }
   return null;
 };

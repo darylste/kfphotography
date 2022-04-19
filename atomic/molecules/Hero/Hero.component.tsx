@@ -17,11 +17,11 @@ const Hero: React.FC = () => {
             Vel repellat laborum consequatur dicta tenetur. Nihil itaque dolore
             nisi beatae?
           </Typography>
-          <Spacer direction='bottom' size='md' />
+          <Spacer bottom='md' />
           <Button href='#' varient='secondary'>
             LEARN MORE
           </Button>
-          <Spacer direction='left' size='sm' inline />
+          <Spacer left='sm' inline />
           <Button href='#' varient='primary'>
             BOOK NOW
           </Button>

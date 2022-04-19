@@ -3,14 +3,12 @@ import Spacer from '../../atoms/Spacer/Spacer.component';
 import Typography from '../../atoms/Typography/Typography.component';
 import Gallery from '../../molecules/Gallery/Gallery.component';
 
-import styles from './Highlights.module.scss';
-
 const Highlights: React.FC = () => {
   return (
-    <section className={styles.highlights}>
+    <section>
       <Flex justifyBetween>
         <Typography varient='sectionTitle'>Highlights</Typography>
-        <Spacer direction='left' size='lg' />
+        <Spacer left='lg' />
         <Typography varient='body'>
           Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor
           sit amet, consectetur adipiscing elit. Nullam id dolor id nibh

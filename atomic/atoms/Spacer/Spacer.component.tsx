@@ -2,29 +2,30 @@ import classNames from 'classnames';
 
 import styles from './Spacer.module.scss';
 
+type Sizes = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
 interface ISpacingProps {
-  direction:
-    | 'top'
-    | 'right'
-    | 'bottom'
-    | 'left'
-    | 'vertical'
-    | 'horizontal'
-    | 'all';
-  size: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+  left?: Sizes;
+  right?: Sizes;
+  top?: Sizes;
+  bottom?: Sizes;
   inline?: boolean;
 }
 
 const Spacer: React.FC<ISpacingProps> = ({
-  direction = 'all',
-  size = 'md',
+  left,
+  right,
+  bottom,
+  top,
   inline = false,
   children,
 }) => {
   return (
     <div
       className={classNames(
-        styles[`${direction}${size}`],
+        styles[top ? `top${top}` : ''],
+        styles[left ? `left${left}` : ''],
+        styles[right ? `right${right}` : ''],
+        styles[bottom ? `bottom${bottom}` : ''],
         inline && styles.inline,
       )}
     >
