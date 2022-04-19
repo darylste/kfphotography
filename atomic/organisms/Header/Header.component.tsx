@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import Logo from '../../atoms/Logo/Logo.component';
 import Nav from '../../molecules/Nav/Nav.component';
 
