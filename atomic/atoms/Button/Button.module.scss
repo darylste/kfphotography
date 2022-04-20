@@ -1,27 +1,28 @@
 @import '../../../styles/variables.scss';
 
 .btn {
-    font-family: $font-secondary;
-    font-size: $font-size-xs;
-    font-weight: $font-weight-semibold;
-    letter-spacing: 1px;
-    padding: 1.5rem 2.5rem;
-    margin-top: $spacing-md;
-    border: 2px solid $color-grey-dark;
-    border-radius: 50px;
+  font-family: $font-secondary;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-semibold;
+  letter-spacing: 1px;
+  padding: 1.5rem 2.5rem;
+  margin-top: $spacing-md;
+  border: 2px solid $color-grey-dark;
+  border-radius: 50px;
 }
 
 .btnSecondary:hover {
-    color: $color-grey-light;
+  color: $color-primary;
+  border: 2px solid $color-primary;
 }
 
 .btnPrimary {
-    background-color: $color-grey-dark;
-    color: $color-white;
+  background-color: $color-grey-dark;
+  color: $color-white;
 
-    &:hover {
-        background-color: $color-white;
-        color: $color-grey-dark;
-        border: 2px solid $color-white;
-    }
+  &:hover {
+    background-color: $color-primary;
+    // color: $color-grey-dark;
+    border: 2px solid $color-primary;
+  }
 }

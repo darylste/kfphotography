@@ -1,18 +1,31 @@
 @import '../../../styles/variables.scss';
 
 .divider {
-    width: 100%;
+  width: 100%;
 
-    &-top {
-        border-top: 2px solid $color-off-white;
-    }
-    &-right {
-        border-right: 2px solid $color-off-white;
-    }
-    &-bottom{
-        border-bottom: 2px solid $color-off-white;
-    }
-    &-left{
-        border-left: 2px solid $color-off-white;
-    }
+  &-top-offWhite {
+    border-top: 2px solid $color-off-white;
+  }
+  &-right-offWhite {
+    border-right: 2px solid $color-off-white;
+  }
+  &-bottom-offWhite {
+    border-bottom: 2px solid $color-off-white;
+  }
+  &-left-offWhite {
+    border-left: 2px solid $color-off-white;
+  }
+
+  &-top-grey {
+    border-top: 2px solid $color-grey-light;
+  }
+  &-right-grey {
+    border-right: 2px solid $color-grey-light;
+  }
+  &-bottom-grey {
+    border-bottom: 2px solid $color-grey-light;
+  }
+  &-left-grey {
+    border-left: 2px solid $color-grey-light;
+  }
 }

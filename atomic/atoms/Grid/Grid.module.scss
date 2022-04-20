@@ -1,0 +1,10 @@
+@import '../../../styles/variables.scss';
+
+.grid {
+  display: grid;
+}
+
+.gridCols3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: $spacing-sm;
+}
