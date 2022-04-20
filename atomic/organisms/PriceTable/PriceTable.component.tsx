@@ -91,9 +91,6 @@ const PriceTable: React.FC = () => {
               <Button href='#' varient='primary'>
                 LEARN MORE
               </Button>
-              {/* <a href='#' className={styles.button}>
-                Learn More
-              </a> */}
             </Spacer>
           </div>
         ))}
