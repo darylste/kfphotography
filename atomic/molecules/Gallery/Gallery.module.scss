@@ -11,6 +11,7 @@
     cursor: pointer;
     transition: all 0.25s;
     position: relative;
+    text-transform: capitalize;
 
     &:not(:last-of-type) {
       margin-right: $spacing-md;
@@ -19,6 +20,7 @@
         position: absolute;
         content: '/';
         right: -30px;
+        color: $color-grey-light;
       }
     }
 
@@ -32,12 +34,17 @@
   }
 }
 
-.active {
-  color: $color-grey;
+.isActive {
+  color: $color-black;
+}
+
+.imageContainer {
+  position: relative;
 }
 
 .image {
   width: 100%;
   display: block;
   padding: 7.5px;
+  object-fit: contain;
 }
