@@ -6,5 +6,11 @@
 
 .gridCols3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.gridGapsm {
   gap: $spacing-sm;
+}
+.gridGapmd {
+  gap: $spacing-md;
 }

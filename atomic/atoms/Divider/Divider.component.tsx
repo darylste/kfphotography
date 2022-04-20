@@ -2,8 +2,9 @@ import classNames from 'classnames';
 
 import styles from './Divider.module.scss';
 
+type Direction = 'top' | 'right' | 'bottom' | 'left';
 interface IDividerProps {
-  direction: 'top' | 'right' | 'bottom' | 'left';
+  direction: Direction;
   color?: 'offWhite' | 'grey';
 }
 
