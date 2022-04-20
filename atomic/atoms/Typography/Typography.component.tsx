@@ -8,7 +8,11 @@ type Varient =
   | 'body'
   | 'sectionTitle'
   | 'footerTitle'
-  | 'footerText';
+  | 'footerText'
+  | 'cardTitle'
+  | 'cardPrice'
+  | 'cardCurrency'
+  | 'cardFeature';
 interface ITypographyProps {
   varient: Varient;
 }
@@ -31,8 +35,17 @@ const Typography: React.FC<ITypographyProps> = ({ children, varient }) => {
       return <h4 className={styles.footerTitle}>{children}</h4>;
     case 'footerText':
       return <p className={styles.footerText}>{children}</p>;
+    case 'cardTitle':
+      return <h3 className={styles.cardTitle}>{children}</h3>;
+    case 'cardPrice':
+      return <p className={styles.cardPrice}>{children}</p>;
+    case 'cardCurrency':
+      return <span className={styles.cardCurrency}>{children}</span>;
+    case 'cardFeature':
+      return <p className={styles.cardFeature}>{children}</p>;
+    default:
+      return null;
   }
-  return null;
 };
 
 export default Typography;

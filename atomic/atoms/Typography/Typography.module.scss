@@ -52,3 +52,28 @@
   font-size: $font-size-sm;
   color: $color-grey-light;
 }
+
+.cardTitle {
+  font-family: $font-tertiary;
+  font-size: $font-size-footTitle;
+  font-weight: 400;
+  color: $color-off-white;
+}
+
+.cardPrice {
+  font-family: $font-tertiary;
+  font-size: $font-size-lg;
+  font-weight: 600;
+  display: inline;
+}
+
+.cardCurrency {
+  font-family: $font-tertiary;
+  font-size: $font-size-md;
+  font-weight: 500;
+}
+
+.cardFeature {
+  font-size: $font-size-sm;
+  color: $color-grey-light;
+}
