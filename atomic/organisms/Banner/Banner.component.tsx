@@ -4,15 +4,15 @@ import ProcessCard from '../../molecules/ProcessCard/ProcessCard.component';
 import styles from './Banner.module.scss';
 
 const Banner: React.FC = () => {
-  type Cards = {
+  interface ICards {
     title: string;
     body: string;
     cardNumber: string;
     imgSrc: string;
     imgAlt: string;
-  };
+  }
 
-  const cards: Cards[] = [
+  const cards: ICards[] = [
     {
       title: 'Get in Touch',
       body: 'Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.',
