@@ -8,6 +8,7 @@ import styles from './ProcessCard.module.scss';
 
 interface IProcessCard {
   imgSrc: string;
+  imgAlt: string;
   imgWidth?: number;
   imgHeight?: number;
   cardTitle: string;
@@ -17,6 +18,7 @@ interface IProcessCard {
 
 const ProcessCard: React.FC<IProcessCard> = ({
   imgSrc,
+  imgAlt,
   imgHeight = 75,
   imgWidth = 75,
   cardTitle,
@@ -26,7 +28,7 @@ const ProcessCard: React.FC<IProcessCard> = ({
   return (
     <div className={styles.processCard}>
       <Spacer top='md' bottom='md'>
-        <Image src={imgSrc} width={imgWidth} height={imgHeight} />
+        <Image src={imgSrc} alt={imgAlt} width={imgWidth} height={imgHeight} />
         <Spacer top='sm' bottom='sm'>
           <Typography varient='bannerTitle'>{cardTitle}</Typography>
         </Spacer>
