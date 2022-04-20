@@ -35,16 +35,3 @@
   padding-left: 30px;
   margin: $spacing-sm 0 $spacing-sm 0;
 }
-
-.button {
-  font-family: $font-tertiary;
-  font-size: $font-size-sm;
-  color: $color-off-white;
-  background-color: $color-grey-dark;
-  padding: $spacing-sm $spacing-md;
-  border-radius: 50px;
-
-  &:active {
-    // background-color: ;
-  }
-}
