@@ -9,20 +9,8 @@
   color: $color-grey-light;
   cursor: pointer;
 
-  &:not(:last-of-type) {
-    margin-right: 5rem;
-  }
-
-  &:hover {
-    color: $color-black;
-  }
-}
-
-.active {
-  color: $color-black;
-  position: relative;
-
   &::after {
+    display: none;
     content: '';
     width: 75%;
     height: 1.5px;
@@ -31,5 +19,26 @@
     bottom: -10px;
     left: 50%;
     transform: translate(-50%);
+  }
+
+  &:not(:last-of-type) {
+    margin-right: 5rem;
+  }
+
+  &:hover {
+    color: $color-black;
+
+    &::after {
+      display: block;
+    }
+  }
+}
+
+.active {
+  color: $color-black;
+  position: relative;
+
+  &::after {
+    display: unset;
   }
 }
