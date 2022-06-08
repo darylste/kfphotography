@@ -80,7 +80,7 @@ const PriceTable: React.FC = () => {
             </div>
             <Spacer top='sm' bottom='sm'>
               <ul className={styles.packageBenefits}>
-                {benefits.map((key, benefit) => (
+                {benefits.map((benefit, key) => (
                   <li key={key} className={styles.packageBenefit}>
                     <Typography varient='cardFeature'>{benefit}</Typography>
                   </li>
